@@ -8,6 +8,8 @@ lavalink:
       snapshot: false
   server:
     password: "youshallnotpass"
+    noPasswordEndpoints:
+      - "/version"
     sources:
       youtube: false
       bandcamp: true
