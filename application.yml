@@ -16,15 +16,8 @@ lavalink:
       vimeo: true
       http: true
       local: false
-    filters:
-      volume: true
-      equalizer: true
-      timescale: true
-      tremolo: true
-      vibrato: true
     bufferDurationMs: 400
     frameBufferDurationMs: 5000
-    youtubePlaylistLoadLimit: 6
     playerUpdateInterval: 5
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
@@ -55,7 +48,6 @@ sentry:
 logging:
   file:
     path: ./logs/
-
   level:
     root: INFO
     lavalink: INFO
