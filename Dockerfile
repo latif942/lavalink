@@ -10,8 +10,7 @@ COPY application.yml application.yml
 COPY health.py health.py
 COPY start.sh start.sh
 
-RUN mkdir -p plugins logs
-RUN chmod +x start.sh
+RUN mkdir -p plugins logs && chmod +x start.sh
 
 EXPOSE 8080
 

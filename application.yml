@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 2333
   address: 0.0.0.0
 
 lavalink:
@@ -8,8 +8,6 @@ lavalink:
       snapshot: false
   server:
     password: "youshallnotpass"
-    noPasswordEndpoints:
-      - "/version"
     sources:
       youtube: false
       bandcamp: true
@@ -33,7 +31,6 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
-      - ANDROID_TESTSUITE
       - WEB
       - WEBEMBEDDED
       - TVHTML5EMBEDDED
