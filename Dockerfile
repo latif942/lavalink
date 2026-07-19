@@ -12,4 +12,4 @@ RUN mkdir -p plugins logs
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "Lavalink.jar"]
+CMD ["java", "-XX:TieredStopAtLevel=1", "-jar", "Lavalink.jar"]
