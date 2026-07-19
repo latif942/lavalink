@@ -10,6 +10,6 @@ COPY application.yml application.yml
 
 RUN mkdir -p plugins logs
 
-EXPOSE 2333
+EXPOSE 8080
 
 CMD ["java", "-jar", "Lavalink.jar"]
